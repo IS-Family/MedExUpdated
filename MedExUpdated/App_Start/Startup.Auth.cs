@@ -58,11 +58,11 @@ namespace MedExUpdated
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "84871075629-56r7nbl3agaqn7j0q1e28t3t67sc6oan.apps.googleusercontent.com",
+                ClientSecret = "uwK3yAVTtdOSNTlDcmFJzfpp"
+            });
         }
     }
 }
